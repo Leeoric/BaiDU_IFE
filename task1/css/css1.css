@@ -1,0 +1,11 @@
+
+table,th,td {
+	border-top: 1px solid #717171;
+	border-right: 1px solid #C5C2C2;
+	border-bottom: 1px solid #C5C2C2;
+	border-left: 1px solid #5F5F5F;
+}
+
+p {
+	text-indent: 2em;
+}
