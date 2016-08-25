@@ -1,0 +1,170 @@
+body {
+	font-family: "黑体","Arial","Microsoft YaHei","宋体",sans-serif;
+	font-size: 14px;
+	margin: 0;
+	text-decoration: none;
+	background-color: #C0C0C0;
+	min-width: 1000px;
+}
+
+a {
+	text-decoration: none;
+}
+
+h3 {
+	color: #626161;
+}
+/*-------------导航开始-------------*/
+header {
+	margin-top: 0;
+	width: 100%;
+	height: 5em;
+	background-color: #232323;
+}
+
+header span {
+	display: inline-block;
+	margin-left: 2em;
+	margin-top: 1em;
+	float: left;
+}
+
+header nav ul {
+	margin-right: 1em;
+	float: right;
+}
+
+header nav ul li {
+	width: 6em;
+	margin-right: 1em;
+	margin-top: 1em;
+	float: left;
+}
+
+header nav ul li a {
+	color: #FFF;
+}
+
+header nav ul li a:hover,
+header nav ul li a:focus {
+	color: #CFCECE;
+}
+
+/*-------------导航结束-------------*/
+
+/*-------------边栏开始-------------*/
+aside {
+	margin: 2em;
+	float: right;
+	width: 28em;
+	background-color: #FFF;
+}
+
+		/*-------------边栏CSS表格开始-------------*/
+aside form {
+	padding: 1em;
+	display: table;
+}
+
+aside form div.tablerow {
+	display: table-row;
+}
+
+aside form div.tablerow p {
+	padding: 0.5em;
+	display: table-cell;
+	vertical-align: top;
+}
+
+aside form div.tablerow p:first-child {
+	text-align: right;
+}
+		/*-------------边栏CSS表格结束-------------*/
+aside .sidetext {
+	margin-left: 1em;
+	padding: 0.7em;
+	border-left: 3px solid #8B8B8B;
+}
+
+aside form p.gray {
+	color: #979797;
+}
+
+div.submit {
+	margin-left: 2em;
+	margin-right: 2em;
+}
+
+input[type="submit"] {
+	width: 100%;
+	height: 3em;
+	border-radius: 6px;
+	cursor: pointer;
+	color: #fff;
+	border:1px solid #3355D0;
+	background-color: #3355D0;
+
+}
+/*-------------边栏结束-------------*/
+
+/*-------------文章区域开始-------------*/
+article {
+	margin-top: 2em;
+	margin-left: 4em;
+	margin-right: 32em;
+	margin-bottom: 2em;
+	padding: 2em;
+	background-color: #FFF;
+	position: relative;
+	box-shadow: 2px 2px 2px #848484;
+}
+article p span.author,
+article p time {
+	display: inline-block;
+	padding-right: 1em;
+	font-size: 0.9em;
+	color: #9B9B9B;
+}
+
+article figure{
+    height: 6em;
+    width: 5em;
+    border: 1px solid #AAA;
+    text-align: center;
+    padding-bottom: 1em;
+    margin-bottom: 2em;
+    display: inline-block;
+}
+article figcaption{
+    padding: 0.3em;
+}
+
+article table {
+	width: 100%;
+}
+
+article table thead {
+	width: 100%;
+	text-align: left;
+	color: #FFF;
+	background-color: #2A2A2A;
+}
+article table tfoot {
+	font-weight: bold;
+	background-color: #B9B9B9;
+}
+
+/*-------------文章区域结束-------------*/
+
+/*-------------页脚区域开始-------------*/
+footer {
+	clear: both;
+	background-color: #232323;
+	height: 2.5em;
+	padding: 1em;
+	text-align: center;
+	color: #FFF;
+	font-family: "黑体";
+}
+
+/*-------------页脚区域结束-------------*/
