@@ -2,64 +2,66 @@ body {
 	font-family: "黑体";
 	font-size: 14px;
 	margin: 0;
-	/*background-color: #ABABAB;	*/
 }
 
-div#container {
-	/*width: 100%;*/
+#container {
+
 	margin: 20px;
 	padding: 20px;
 	border: 1px solid #999;
-	float: left;
+	/*float: left;*/
 	background-color: #EEE;
 }
 
+#container:after {
+	content: "";
+	clear: both;
+	display: block;
+}
+
 /*------------------------左栏开始-----------------------*/
-div#tlogo {
+#tlogo {
 	width: 200px;
 	margin: 20px;
 	padding: 20px;
 	display: table;
 	border: 1px solid #999;
 	float: left;
-	/*position: relative;*/
 	background-color: #FFF;
 }
 
-div#tlogo .tablerow {
+.tablerow {
 	display: table-row;
 }
 
-div#tlogo .tablerow p {
+.tablerow p {
 	display: table-cell;
 	vertical-align: top;
 }
 /*------------------------左栏结束-----------------------*/
 
 /*------------------------中栏开始-----------------------*/
-div#tintro {
+#tintro {
 	width: auto;
+	min-width: 500px;
 	margin: 20px 200px 20px 280px;
 	padding: 20px;
 	border: 1px solid #999;
-	/*float: right;*/
-	/*position: relative;*/
 	background-color: #FFF;
 }
 
-div#tintro p {
+#tintro p {
 	text-indent: 2em;
 }
 /*------------------------中栏结束-----------------------*/
 /*------------------------右栏开始-----------------------*/
-div#plogo {
+#plogo {
 	width: 120px;
 	margin: 20px;
 	padding: 20px;
 	text-align: center;
 	border: 1px solid #999;
 	float: right;
-	/*position: relative;*/
 	background-color: #FFF;
 
 }
